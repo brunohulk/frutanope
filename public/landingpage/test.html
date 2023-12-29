@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSV to Leaflet Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.js"></script>
+    <script src="trees.js"></script>
+</head>
+<body>
+
+<div id="map" style="height: 500px;"></div>
+
+<script>
+
+    const map = L.map('map').setView([-23.1791, -45.8872], 11);
+
+    const guavaIcon = L.icon({
+        iconUrl: 'guava.png',
+        iconSize:     [70, 70],
+    });
+
+    const mangoIcon = L.icon({
+        iconUrl: 'mango.png',
+        iconSize:     [70, 70],
+    });
+
+    const orangeIcon = L.icon({
+        iconUrl: 'mango.png',
+        iconSize:     [70, 70],
+    });
+
+    const jackIcon = L.icon({
+        iconUrl: 'jack-fruit.png',
+        iconSize:     [70, 70],
+    });
+
+    const acerolaIcon = L.icon({
+        iconUrl: 'acerola.png',
+        iconSize:     [70, 70],
+    });
+
+    const jabuticabaIcon = L.icon({
+        iconUrl: 'jabuticaba.png',
+        iconSize:     [70, 70],
+    });
+
+    const limeIcon = L.icon({
+        iconUrl: 'lime.png',
+        iconSize:     [70, 70],
+    });
+
+    const condeIcon = L.icon({
+        iconUrl: 'custard_apple.png',
+        iconSize:     [70, 70],
+    });
+
+    const blackberryIcon = L.icon({
+        iconUrl: 'blackberry.png',
+        iconSize:     [70, 70],
+    });
+
+    const avocadoIcon = L.icon({
+        iconUrl: 'avocado.png',
+        iconSize:     [70, 70],
+    });
+
+    const pitangaIcon = L.icon({
+        iconUrl: 'pitanga.png',
+        iconSize:     [70, 70],
+    });
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+
+    trees.forEach(function (tree) {
+        let fruitIcon
+        let skip = false
+
+        switch (tree.name) {
+            case "Goiaba, Goiabeira":
+                fruitIcon = guavaIcon
+                break
+            case "Jaca, Jaqueira":
+                fruitIcon = jackIcon
+                break
+            case "Laranja, Laranjeira":
+                fruitIcon = orangeIcon
+                break
+            case "Manga, Mangueira":
+                fruitIcon = mangoIcon
+                break
+            case "Acerola":
+                fruitIcon = acerolaIcon
+                break
+            case "Jaboticaba, Jabuticaba, Jaboticabeira, Jabuticabeira":
+                fruitIcon = jabuticabaIcon
+                break
+            case "Limão, Limoeiro":
+                fruitIcon = limeIcon
+                break
+            case "Amora, Amoreira":
+                fruitIcon = blackberryIcon
+                break
+            case "Fruta-do-conde, Ata, Pinha":
+                fruitIcon = condeIcon
+                break
+            case "Abacate, Abacateiro":
+                fruitIcon = avocadoIcon
+                break
+            case "Pitanga, Pitangueira":
+                fruitIcon = pitangaIcon
+                break
+            default:
+                skip = true
+                break;
+        }
+
+        if (!skip) {
+            L.marker([tree.latitude.replace(",","."), tree.longitude.replace(",",".")],  {icon: fruitIcon}).
+            bindPopup(tree.name)
+                .openPopup().addTo(map);
+        }
+    });
+</script>
+
+</body>
+</html>
