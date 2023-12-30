@@ -32807,5 +32807,95 @@ const trees = [{
         "name": "Pitanga, Pitangueira",
         "latitude": "-23,233672",
         "longitude": "-45,881185"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,192577",
+        "longitude": "-45,901766"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,219257",
+        "longitude": "-45,888798"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,178748",
+        "longitude": "-45,846218"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,183187",
+        "longitude": "-45,833786"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,198397",
+        "longitude": "-45,912491"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,196658",
+        "longitude": "-45,908498"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,203053",
+        "longitude": "-45,89696"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,215191",
+        "longitude": "-45,883501"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,182115",
+        "longitude": "-45,876648"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,222551",
+        "longitude": "-45,921069"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,178611",
+        "longitude": "-45,885859"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,211998",
+        "longitude": "-45,906984"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,182333",
+        "longitude": "-45,85415"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,234854",
+        "longitude": "-45,879014"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,216549",
+        "longitude": "-45,842936"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,23514",
+        "longitude": "-45,878816"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,182006",
+        "longitude": "-45,84149"
+    },
+    {
+        "name": "Lichia, Lixia",
+        "latitude": "-23,211075",
+        "longitude": "-45,905588"
     }
 ]

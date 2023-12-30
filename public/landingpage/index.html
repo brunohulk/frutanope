@@ -134,6 +134,10 @@
                         <img alt="Jaboticaba" src="jabuticaba.png" class="imgTable">Jaboticaba
                         <span id="jaboticabaCount" class="badge text-bg-success">Info</span>
                     </td>
+                    <td>
+                        <img alt="Lichia" src="lychee.png" class="imgTable">Lichia
+                        <span id="lichiaCount" class="badge text-bg-success">Info</span>
+                    </td>
                     <td colspan="2">
                         <img alt="Fruta-do-conde" src="custard_apple.png" class="imgTable">Fruta-do-conde
                          <span id="fruta-do-condeCount" class="badge text-bg-success">Info</span>
@@ -232,6 +236,11 @@
         iconSize:     [70, 70],
     });
 
+    const lycheeIcon = L.icon({
+        iconUrl: 'lychee.png',
+        iconSize:     [70, 70],
+    });
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
@@ -295,6 +304,10 @@
             case "Pitanga, Pitangueira":
                 fruitIcon = pitangaIcon
                 additionalDesc = 'Maior incidência de frutas maduras nos meses mais quentes do ano'
+                break
+            case "Lichia, Lixia":
+                fruitIcon = lycheeIcon
+                additionalDesc = 'A lichieira é uma planta que geralmente dá frutos uma vez por ano. Em geral, as lichias costumam frutificar durante o verão'
                 break
             default:
                 skip = true
