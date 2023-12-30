@@ -96,4 +96,4 @@ final class FetchTrees extends Command
     }
 }
 //query in MongoDb
-//{ $or: [{"name" : {$regex : "Abacate"}}, {"name" : {$regex : "Pitanga"}}, {"name" : {$regex : "Limoeiro"}},{"name" : {$regex : "Goiaba"}},{"name" : {$regex : "Manga"}},{"name" : {$regex : "Amora"}},{"name" : {$regex : "Jabuticaba"}}, {"name" : {$regex : "Fruta-do-conde"}}, {"name" : {$regex : "Acerola"}},{"name" : {$regex : "Laranja"}}, {"name" : {$regex : "Jaqueira"}}]}
+//{ $or: [{"name" : {$regex : "Mixirica"}}, {"name" : {$regex : "Mamão"}}, {"name" : {$regex : "Lichia"}}, {"name" : {$regex : "Abacate"}}, {"name" : {$regex : "Pitanga"}}, {"name" : {$regex : "Limoeiro"}},{"name" : {$regex : "Goiaba"}},{"name" : {$regex : "Manga"}},{"name" : {$regex : "Amora"}},{"name" : {$regex : "Jabuticaba"}}, {"name" : {$regex : "Fruta-do-conde"}}, {"name" : {$regex : "Acerola"}},{"name" : {$regex : "Laranja"}}, {"name" : {$regex : "Jaqueira"}}]}
