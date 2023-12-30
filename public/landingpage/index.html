@@ -63,6 +63,9 @@
             main {
                 padding-top: 90px;
             }
+            table td {
+                font-size: 8px !important;
+            }
         }
     </style>
 </head>
@@ -87,7 +90,7 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th scope="col" colspan="6" class="tableHeader">Frutas</th>
+                        <th scope="col" colspan="7" class="tableHeader">Frutas</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -116,6 +119,10 @@
                         <img alt="Pitanga" src="pitanga.png" class="imgTable">Pitanga
                         <span id="pitangaCount" class="badge text-bg-success">Info</span>
                     </td>
+                    <td>
+                        <img alt="Mamão" src="papaya.png" class="imgTable">Mamão
+                        <span id="mamãoCount" class="badge text-bg-success">Info</span>
+                    </td>
                 </tr>
                 <tr>
                     <td>
@@ -138,7 +145,11 @@
                         <img alt="Lichia" src="lychee.png" class="imgTable">Lichia
                         <span id="lichiaCount" class="badge text-bg-success">Info</span>
                     </td>
-                    <td colspan="2">
+                    <td>
+                        <img alt="Mixirica" src="tangerine-fruit.png" class="imgTable">Mexirica
+                        <span id="mixiricaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
                         <img alt="Fruta-do-conde" src="custard_apple.png" class="imgTable">Fruta-do-conde
                          <span id="fruta-do-condeCount" class="badge text-bg-success">Info</span>
                     </td>
@@ -241,6 +252,16 @@
         iconSize:     [70, 70],
     });
 
+    const papayaIcon = L.icon({
+        iconUrl: 'papaya.png',
+        iconSize:     [70, 70],
+    });
+
+    const tangerineIcon = L.icon({
+        iconUrl: 'tangerine-fruit.png',
+        iconSize:     [70, 70],
+    });
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
@@ -308,6 +329,14 @@
             case "Lichia, Lixia":
                 fruitIcon = lycheeIcon
                 additionalDesc = 'A lichieira é uma planta que geralmente dá frutos uma vez por ano. Em geral, as lichias costumam frutificar durante o verão'
+                break
+            case "Mamão, Mamoeiro":
+                fruitIcon = papayaIcon
+                additionalDesc = 'Os mamoeiros geralmente produzem frutos de forma contínua, sem uma estação específica para a frutificação.'
+                break
+            case "Mixirica, Mexirica":
+                fruitIcon = tangerineIcon
+                additionalDesc = 'Em geral, as mixiricas tendem a produzir frutos no outono e inverno'
                 break
             default:
                 skip = true
