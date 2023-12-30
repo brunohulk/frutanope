@@ -28,12 +28,23 @@
             color: green !important;
             font-size: 10pt;
         }
+        main {
+            padding-top: 70px;
+        }
         .desc {
             font-family: Arial,fantasy;
             font-style: italic;
             color: green;
         }
 
+        @media all and (max-width: 800px) {
+            .desc {
+                font-size: 12px;
+            }
+            main {
+                padding-top: 90px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -42,7 +53,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="happy-orange-fruit.png" style="width: 60px; height: 60px">
-                    Fruta do pé em Sanja
+                    Fruta no pé em Sanja
             </a>
             <span class="fst-italic desc">
                 Lista das árvores com frutos em São José dos Campos
@@ -50,7 +61,7 @@
         </div>
     </nav>
 </header>
-<main style="padding-top: 70px">
+<main>
     <div id="map" style="height: 600px;"></div>
 </main>
 <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
