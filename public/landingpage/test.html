@@ -70,6 +70,7 @@
 <script>
 
     const map = L.map('map').setView([-23.1791, -45.8872], 11);
+    let additionalDesc = ''
 
     map.locate({setView: true, maxZoom: 16});
 
@@ -143,7 +144,6 @@
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
-
     trees.forEach(function (tree) {
         let fruitIcon
         let skip = false
@@ -151,36 +151,47 @@
         switch (tree.name) {
             case "Goiaba, Goiabeira":
                 fruitIcon = guavaIcon
+                additionalDesc = 'Pode ser encontrada ao longo do ano, com uma produção mais concentrada nos meses mais quentes'
                 break
             case "Jaca, Jaqueira":
                 fruitIcon = jackIcon
+                additionalDesc = 'Costuma frutificar na primavera e no verão.'
                 break
             case "Laranja, Laranjeira":
                 fruitIcon = orangeIcon
+                additionalDesc = 'Podem ser encontradas durante grande parte do ano.'
                 break
             case "Manga, Mangueira":
                 fruitIcon = mangoIcon
+                additionalDesc = 'Geralmente, a safra de manga ocorre na primavera e no verão.'
                 break
             case "Acerola":
                 fruitIcon = acerolaIcon
+                additionalDesc = 'Pode ser encontrada durante o ano, mas a produção é geralmente mais intensa na primavera e no verão.'
                 break
             case "Jaboticaba, Jabuticaba, Jaboticabeira, Jabuticabeira":
                 fruitIcon = jabuticabaIcon
+                additionalDesc = 'Costuma frutificar na primavera e no início do verão.'
                 break
             case "Limão, Limoeiro":
                 fruitIcon = limeIcon
+                additionalDesc = 'Pode ser encontrado ao longo do ano, mas algumas variedades têm uma produção mais intensa no inverno.'
                 break
             case "Amora, Amoreira":
                 fruitIcon = blackberryIcon
+                additionalDesc = 'A produção principal ocorre na primavera e no verão.'
                 break
             case "Fruta-do-conde, Ata, Pinha":
                 fruitIcon = condeIcon
+                additionalDesc = 'Pode ser encontrada ao longo do ano, mas a produção é geralmente mais intensa no verão.'
                 break
             case "Abacate, Abacateiro":
                 fruitIcon = avocadoIcon
+                additionalDesc = 'Dependendo da variedade, os abacates podem ser encontrados durante o ano, com uma produção mais intensa na primavera e no verão.'
                 break
             case "Pitanga, Pitangueira":
                 fruitIcon = pitangaIcon
+                additionalDesc = 'Maior incidência de frutas maduras nos meses mais quentes do ano'
                 break
             default:
                 skip = true
@@ -189,7 +200,7 @@
 
         if (!skip) {
             L.marker([tree.latitude.replace(",","."), tree.longitude.replace(",",".")],  {icon: fruitIcon}).
-            bindPopup(tree.name)
+            bindPopup("<b>" + tree.name + "</b>: " + additionalDesc)
                 .openPopup().addTo(map);
         }
     });
