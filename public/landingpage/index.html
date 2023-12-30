@@ -37,6 +37,15 @@
             font-style: italic;
             color: green;
         }
+        .imgTable {
+            width: 32px;
+            height: 32px;
+        }
+
+        .tableHeader {
+            background-color: green !important;
+            color: white !important;
+        }
 
         @media all and (max-width: 800px) {
             .desc {
@@ -63,9 +72,71 @@
     </nav>
 </header>
 <main>
-    <div id="map" style="height: 600px;"></div>
+    <div id="map" style="height: 550px;"></div>
+    <div class="row">
+        <div class="col">
+            <table class="table table-sm">
+                <thead>
+                    <tr>
+                        <th scope="col" colspan="6" class="tableHeader">Frutas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <img alt="Goiaba" src="guava.png" class="imgTable"> Goiaba
+                        <span id="goiabaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Jaca" src="jack-fruit.png" class="imgTable">Jaca
+                        <span id="jacaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Laranja" src="orange.png" class="imgTable">Laranja
+                        <span id="laranjaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Manga" src="mango.png" class="imgTable">Manga
+                        <span id="mangaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Abacate" src="avocado.png" class="imgTable">Abacate
+                        <span id="abacateCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Pitanga" src="pitanga.png" class="imgTable">Pitanga
+                        <span id="pitangaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img alt="Acerola" src="acerola.png" class="imgTable">Acerola
+                        <span id="acerolaCount"  class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Limão" src="lime.png" class="imgTable">Limão
+                        <span id="limãoCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Amora" src="blackberry.png" class="imgTable">Amora
+                        <span id="amoraCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Jaboticaba" src="jabuticaba.png" class="imgTable">Jaboticaba
+                        <span id="jaboticabaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td colspan="2">
+                        <img alt="Fruta-do-conde" src="custard_apple.png" class="imgTable">Fruta-do-conde
+                         <span id="fruta-do-condeCount" class="badge text-bg-success">Info</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-4 border-top">
     <div class="col-md-4 d-flex align-items-center">
         <span class="mb-3 mb-md-0 text-body-secondary ">
             <a href="http://brunoborges.info/" class="author link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
@@ -156,9 +227,20 @@
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
 
+    const countFruits = []
+
     trees.forEach(function (tree) {
         let fruitIcon
         let skip = false
+
+        const nameParts = tree.name.split(",")
+        const fruitName = nameParts[0].toLowerCase();
+
+        if (countFruits[fruitName] === undefined) {
+            countFruits[fruitName] = 1;
+        } else {
+            countFruits[fruitName] =  countFruits[fruitName] + 1;
+        }
 
         switch (tree.name) {
             case "Goiaba, Goiabeira":
@@ -216,6 +298,13 @@
                 .openPopup().addTo(map);
         }
     });
+
+    Object.keys(countFruits).forEach(function (fruit) {
+        let fruitElement = document.getElementById(fruit + "Count")
+        if (fruitElement) {
+            fruitElement.innerText = countFruits[fruit];
+        }
+    })
 </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
