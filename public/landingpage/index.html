@@ -19,6 +19,7 @@
     <script src="https://unpkg.com/leaflet-omnivore/leaflet-omnivore.js"></script>
     <script src="trees.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <style>
         header a, footer * {
             font-weight: bold;
@@ -51,9 +52,31 @@
             height: 32px;
         }
 
+        .hideMainButton {
+            display: none;
+        }
+
         .tableHeader {
             background-color: green !important;
             color: white !important;
+        }
+
+        .imgTable {
+            cursor: pointer;
+        }
+
+        #hideShow {
+            background-color: lightgreen;
+            color: black;
+            font-size: 10px !important;
+        }
+
+        .hide {
+            opacity: 30%;
+        }
+
+        .info {
+            font-size: 9px;
         }
 
         @media all and (max-width: 800px) {
@@ -72,6 +95,7 @@
                 width: max-content;
                 font-size: 9px !important;
             }
+
         }
     </style>
 </head>
@@ -96,67 +120,72 @@
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th scope="col" colspan="7" class="tableHeader">Frutas</th>
+                        <th scope="col" colspan="1" class="tableHeader">Frutas
+                        </th>
+                        <th scope="col"  colspan="6" class="tableHeader" style="text-align: right">
+                            <i class="bi bi-info-circle-fill"></i>
+                            <span class="info">Clique no ícones abaixo para mostrar ou esconder</span>
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
                 <tr>
                     <td>
-                        <img alt="Goiaba" src="guava.png" class="imgTable"> Goiaba
+                        <img alt="Goiaba" title="Mostrar/Esconder" src="guava.png" class="imgTable" id="goiabaButton"> Goiaba
                         <span id="goiabaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Jaca" src="jack-fruit.png" class="imgTable">Jaca
+                        <img alt="Jaca" src="jack-fruit.png" class="imgTable" id="jacaButton">Jaca
                         <span id="jacaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Laranja" src="orange.png" class="imgTable">Laranja
+                        <img alt="Laranja" src="orange.png" class="imgTable" id="laranjaButton">Laranja
                         <span id="laranjaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Manga" src="mango.png" class="imgTable">Manga
+                        <img alt="Manga" src="mango.png" class="imgTable" id="mangaButton">Manga
                         <span id="mangaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Abacate" src="avocado.png" class="imgTable">Abacate
+                        <img alt="Abacate" src="avocado.png" class="imgTable" id="abacateButton">Abacate
                         <span id="abacateCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Pitanga" src="pitanga.png" class="imgTable">Pitanga
+                        <img alt="Pitanga" src="pitanga.png" class="imgTable" id="pitangaButton">Pitanga
                         <span id="pitangaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Mamão" src="papaya.png" class="imgTable">Mamão
+                        <img alt="Mamão" src="papaya.png" class="imgTable" id="mamãoButton">Mamão
                         <span id="mamãoCount" class="badge text-bg-success">Info</span>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <img alt="Acerola" src="acerola.png" class="imgTable">Acerola
+                        <img alt="Acerola" src="acerola.png" class="imgTable" id="acerolaButton">Acerola
                         <span id="acerolaCount"  class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Limão" src="lime.png" class="imgTable">Limão
+                        <img alt="Limão" src="lime.png" class="imgTable" id="limãoButton">Limão
                         <span id="limãoCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Amora" src="blackberry.png" class="imgTable">Amora
+                        <img alt="Amora" src="blackberry.png" class="imgTable" id="amoraButton">Amora
                         <span id="amoraCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Jaboticaba" src="jabuticaba.png" class="imgTable">Jaboticaba
+                        <img alt="Jaboticaba" src="jabuticaba.png" class="imgTable" id="jaboticabaButton">Jaboticaba
                         <span id="jaboticabaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Lichia" src="lychee.png" class="imgTable">Lichia
+                        <img alt="Lichia" src="lychee.png" class="imgTable" id="lichiaButton">Lichia
                         <span id="lichiaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Mixirica" src="tangerine-fruit.png" class="imgTable">Mexirica
+                        <img alt="Mixirica" src="tangerine-fruit.png" class="imgTable" id="mixiricaButton">Mexirica
                         <span id="mixiricaCount" class="badge text-bg-success">Info</span>
                     </td>
                     <td>
-                        <img alt="Fruta-do-conde" src="custard_apple.png" class="imgTable">Fruta-do-conde
+                        <img alt="Fruta-do-conde" src="custard_apple.png" class="imgTable" id="fruta-do-condeButton">Fruta-do-conde
                          <span id="fruta-do-condeCount" class="badge text-bg-success">Info</span>
                     </td>
                 </tr>
@@ -273,6 +302,7 @@
     }).addTo(map);
 
     const countFruits = []
+    const fruitGroups = []
 
     trees.forEach(function (tree) {
         let fruitIcon
@@ -350,13 +380,40 @@
         }
 
         if (!skip) {
-            L.marker([tree.latitude.replace(",","."), tree.longitude.replace(",",".")],  {icon: fruitIcon}).
-            bindPopup("<b>" + tree.name + "</b>: " + additionalDesc)
-                .openPopup().addTo(map);
+            const marker = L.marker([tree.latitude.replace(",", "."), tree.longitude.replace(",", ".")], {icon: fruitIcon})
+                .bindPopup("<b>" +  tree.name + "</b>: " + additionalDesc)
+
+            if (fruitGroups[fruitName] === undefined) {
+                fruitGroups[fruitName] = [marker]
+            } else{
+                fruitGroups[fruitName].push(marker);
+            }
         }
     });
 
-    console.log(countFruits)
+    Object.keys(fruitGroups).forEach(function (fruit) {
+        const feature = L.featureGroup(fruitGroups[fruit])
+            .openPopup()
+            .addTo(map)
+
+        const button = document.getElementById(fruit + 'Button');
+
+        if (button) {
+            button.addEventListener('click', function () {
+                let element = document.getElementById(fruit + 'Button');
+
+                if (element.classList.contains("hide")) {
+                    feature.addTo(map);
+                    element.classList.remove("hide");
+                } else {
+                    feature.removeFrom(map);
+                    element.classList.add("hide");
+                }
+            })
+        } else {
+            console.log("Could not find " + fruit);
+        }
+    });
 
     Object.keys(countFruits).forEach(function (fruit) {
         let fruitElement = document.getElementById(fruit + "Count")
