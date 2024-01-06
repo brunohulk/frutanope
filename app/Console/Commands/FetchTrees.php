@@ -95,5 +95,5 @@ final class FetchTrees extends Command
         $progressBar->finish();
     }
 }
-//query in MongoDb
-//{ $or: [{"name" : {$regex : "Mixirica"}}, {"name" : {$regex : "Mamão"}}, {"name" : {$regex : "Lichia"}}, {"name" : {$regex : "Abacate"}}, {"name" : {$regex : "Pitanga"}}, {"name" : {$regex : "Limoeiro"}},{"name" : {$regex : "Goiaba"}},{"name" : {$regex : "Manga"}},{"name" : {$regex : "Amora"}},{"name" : {$regex : "Jabuticaba"}}, {"name" : {$regex : "Fruta-do-conde"}}, {"name" : {$regex : "Acerola"}},{"name" : {$regex : "Laranja"}}, {"name" : {$regex : "Jaqueira"}}]}
+//query in MongoDb to export
+//{ $or: [{"name" : {$regex : "Ameixa"}}, {"name" : {$regex : "Olho-de-dragão"}}, {"name" : {$regex : "Romã"}}, {"name" : {$regex : "Graviola"}},{"name" : {$regex : "Coqueiro"}},{"name" : {$regex : "Caju"}}, {"name" : {$regex : "Pêssego"}},{"name" : {$regex : "Mixirica"}}, {"name" : {$regex : "Mamão"}}, {"name" : {$regex : "Lichia"}}, {"name" : {$regex : "Abacate"}}, {"name" : {$regex : "Pitanga"}}, {"name" : {$regex : "Limoeiro"}},{"name" : {$regex : "Goiaba"}},{"name" : {$regex : "Manga"}},{"name" : {$regex : "Amora"}},{"name" : {$regex : "Jabuticaba"}}, {"name" : {$regex : "Fruta-do-conde"}}, {"name" : {$regex : "Acerola"}},{"name" : {$regex : "Laranja"}}, {"name" : {$regex : "Jaqueira"}}]}

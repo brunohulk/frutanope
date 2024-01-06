@@ -89,8 +89,11 @@
         }
 
         @media all and (max-width: 800px) {
+            #footer-description {
+                display: none !important;
+            }
             .desc {
-                font-size: 12px;
+                font-size: 10px;
             }
             main {
                 padding-top: 90px;
@@ -123,14 +126,19 @@
     </nav>
 </header>
 <main>
-    <div id="map" style="height: 550px;"></div>
+    <div id="map" style="height: 540px;"></div>
     <div class="row">
         <div class="col">
             <table class="table table-sm">
                 <thead>
                     <tr>
-                        <th scope="col" colspan="1" class="tableHeader">Frutas
+                        <th scope="col" colspan="1" class="tableHeader">
+                            <button title="Esconder ou mostrar todas as frutas" class="btnHideAll" type="button" id="hideAll">
+                                <span class="btnTreeHideShow hideMainButton"><i class=" bi bi-eye-fill" ></i></span>
+                                <span class="btnTreeHideShow"><i class="bi bi-eye-slash-fill" ></i></span>
+                            </button>
                         </th>
+
                         <th scope="col"  colspan="6" class="tableHeader" style="text-align: right">
                             <i class="bi bi-info-circle-fill"></i>
                             <span class="info">Clique nos ícones abaixo para mostrar ou esconder</span>
@@ -198,13 +206,43 @@
                          <span id="fruta-do-condeCount" class="badge text-bg-success">Info</span>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <img alt="caju" src="cashew.png" class="imgTable" id="cajuButton">Caju
+                        <span id="cajuCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="pessego" src="peach.png" class="imgTable" id="pessegueiroButton">Pêssego
+                            <span id="pessegueiroCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Coco" src="coconut.png" class="imgTable" id="coqueiro-da-bahiaButton">Coco
+                            <span id="coqueiro-da-bahiaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="graviola" src="soursop.png" class="imgTable" id="graviolaButton">Graviola
+                        <span id="graviolaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="romã" src="pomegranate.png" class="imgTable" id="romãButton">Romã
+                        <span id="romãCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Olho-de-dragão" src="longan.png" class="imgTable" id="olho-de-dragãoButton">Olho-de-dragão
+                        <span id="olho-de-dragãoCount" class="badge text-bg-success">Info</span>
+                    </td>
+                    <td>
+                        <img alt="Ameixa" src="plum.png" class="imgTable" id="ameixaButton">Ameixa
+                        <span id="ameixaCount" class="badge text-bg-success">Info</span>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </div>
     </div>
 
 </main>
-<footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-4 border-top">
+<footer class="d-flex flex-wrap justify-content-between align-items-center">
     <div class="col-md-4 d-flex align-items-center">
         <span class="mb-3 mb-md-0 text-body-secondary ">
             <a href="http://brunoborges.info/" class="author link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
@@ -212,7 +250,7 @@
             </a>
         </span>
     </div>
-    <div class="col-md-4 d-flex align-items-right">
+    <div class="col-md-4 d-flex align-items-right" id="footer-description">
         <a href="https://arvores.sjc.sp.gov.br/" class="leftFooter link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">
             Esse site utiliza o catálogo arbóreo da cidade de São José dos campos
         </a>
@@ -306,6 +344,41 @@
         iconSize:     [70, 70],
     });
 
+    const cajuIcon = L.icon({
+        iconUrl: 'cashew.png',
+        iconSize:     [70, 70],
+    });
+
+    const peachIcon = L.icon({
+        iconUrl: 'peach.png',
+        iconSize:     [70, 70],
+    });
+
+    const coqueiroIcon = L.icon({
+        iconUrl: 'coconut.png',
+        iconSize:     [70, 70],
+    });
+
+    const graviolaIcon = L.icon({
+        iconUrl: 'soursop.png',
+        iconSize:     [70, 70],
+    });
+
+    const pomegranateIcon = L.icon({
+        iconUrl: 'pomegranate.png',
+        iconSize:     [70, 70],
+    });
+
+    const longanIcon = L.icon({
+        iconUrl: 'longan.png',
+        iconSize:     [70, 70],
+    });
+
+    const plumIcon = L.icon({
+        iconUrl: 'plum.png',
+        iconSize:     [70, 70],
+    });
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors'
     }).addTo(map);
@@ -327,6 +400,34 @@
         }
 
         switch (tree.name) {
+            case "Ameixa, Ameixeira, Abrunheiro, Abrunho":
+                fruitIcon = plumIcon
+                additionalDesc = 'Em algumas regiões do sudeste brasileiro, a colheita da ameixa pode começar em novembro e se estender até janeiro ou fevereiro.'
+                break
+            case "Olho-de-dragão, Longa":
+                fruitIcon = longanIcon
+                additionalDesc = 'Em geral, a colheita do longan costuma ocorrer durante os meses de janeiro a março, mas isso pode ser influenciado por fatores específicos de cada região.'
+                break
+            case "Romã":
+                fruitIcon = pomegranateIcon
+                additionalDesc = 'Em geral, a colheita da romã no Brasil costuma ocorrer entre os meses de fevereiro e abril.'
+                break
+            case "Graviola":
+                fruitIcon = graviolaIcon
+                additionalDesc = 'Em climas tropicais, onde a graviola é comumente cultivada, a colheita pode ocorrer mais de uma vez por ano. Em alguns lugares, a produção pode ser mais intensa durante os meses mais quentes do ano.'
+                break
+            case "Coqueiro-da-bahia":
+                fruitIcon = coqueiroIcon
+                additionalDesc = 'Produz cocos ao longo do ano, e não há um período de colheita específico.'
+                break
+            case "Pessegueiro, Pêssego":
+                fruitIcon = peachIcon
+                additionalDesc = 'Em geral, a colheita do pêssego costuma ocorrer entre os meses de outubro e janeiro. No entanto, essas datas podem variar um pouco de ano para ano e dependem de fatores como o clima'
+                break
+            case "Caju, Cajueiro":
+                fruitIcon = cajuIcon
+                additionalDesc = 'Em geral, a colheita do caju ocorre entre os meses de setembro e dezembro em muitas áreas tropicais. No entanto, em algumas regiões, pode estender-se até janeiro.'
+                break
             case "Goiaba, Goiabeira":
                 fruitIcon = guavaIcon
                 additionalDesc = 'Pode ser encontrada ao longo do ano, com uma produção mais concentrada nos meses mais quentes'
@@ -421,6 +522,26 @@
             })
         } else {
             console.log("Could not find " + fruit);
+        }
+    });
+
+    const buttonHideAll = document.getElementById("hideAll");
+
+    buttonHideAll.addEventListener('click', function () {
+        Object.keys(fruitGroups).forEach(function (fruit) {
+            let element = document.getElementById(fruit + 'Button');
+            element.click();
+        });
+
+
+        const collection = document.getElementsByClassName("btnTreeHideShow");
+
+        for (let i = 0; i < collection.length; i++) {
+            if (collection[i].classList.contains('hideMainButton')) {
+                collection[i].classList.remove("hideMainButton");
+            } else {
+                collection[i].classList.add("hideMainButton");
+            }
         }
     });
 

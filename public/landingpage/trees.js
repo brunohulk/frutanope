@@ -33247,5 +33247,2035 @@ const trees = [{
         "name": "Mixirica, Mexirica",
         "latitude": "-23,233113",
         "longitude": "-45,880811"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,190124",
+        "longitude": "-45,871676"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,2198",
+        "longitude": "-45,916373"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221107",
+        "longitude": "-45,916692"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,220885",
+        "longitude": "-45,918824"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,221001",
+        "longitude": "-45,918815"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,218416",
+        "longitude": "-45,920062"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,218871",
+        "longitude": "-45,919448"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,222703",
+        "longitude": "-45,916417"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,224676",
+        "longitude": "-45,915204"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,228213",
+        "longitude": "-45,913108"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,230843",
+        "longitude": "-45,915932"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,230902",
+        "longitude": "-45,915931"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,232022",
+        "longitude": "-45,917001"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,230652",
+        "longitude": "-45,916841"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,232105",
+        "longitude": "-45,917928"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,192446",
+        "longitude": "-45,896784"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,192482",
+        "longitude": "-45,896719"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,236059",
+        "longitude": "-45,885709"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,23598",
+        "longitude": "-45,885562"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,23591",
+        "longitude": "-45,885023"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,193065",
+        "longitude": "-45,898382"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,193015",
+        "longitude": "-45,898437"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,19305",
+        "longitude": "-45,898499"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,193048",
+        "longitude": "-45,89855"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,193089",
+        "longitude": "-45,898551"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192919",
+        "longitude": "-45,898551"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192955",
+        "longitude": "-45,89838"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192989",
+        "longitude": "-45,898436"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192959",
+        "longitude": "-45,898493"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192955",
+        "longitude": "-45,898445"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,192892",
+        "longitude": "-45,898492"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,194057",
+        "longitude": "-45,900441"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,206415",
+        "longitude": "-45,888088"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,207966",
+        "longitude": "-45,889487"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,219562",
+        "longitude": "-45,889373"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,206374",
+        "longitude": "-45,888052"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,226717",
+        "longitude": "-45,921786"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,229011",
+        "longitude": "-45,926542"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,228193",
+        "longitude": "-45,927096"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,227688",
+        "longitude": "-45,926654"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,186308",
+        "longitude": "-45,886668"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,217177",
+        "longitude": "-45,906188"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,196302",
+        "longitude": "-45,878965"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,206331",
+        "longitude": "-45,894883"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,203757",
+        "longitude": "-45,891506"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,207422",
+        "longitude": "-45,895932"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,207402",
+        "longitude": "-45,895918"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,20741",
+        "longitude": "-45,895698"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,207372",
+        "longitude": "-45,895736"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,20798",
+        "longitude": "-45,895916"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,194314",
+        "longitude": "-45,898588"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,193869",
+        "longitude": "-45,896831"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,219067",
+        "longitude": "-45,907147"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,258432",
+        "longitude": "-45,833672"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,255911",
+        "longitude": "-45,831089"
+    },
+    {
+        "name": "Pêssego-do-mato, Pessegueiro-do-rio-grande, Ivaí, Ubajaí, Ibajaí, Uvaião",
+        "latitude": "-23,244985",
+        "longitude": "-45,887847"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,183328",
+        "longitude": "-45,836073"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183328",
+        "longitude": "-45,836073"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183622",
+        "longitude": "-45,836465"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183622",
+        "longitude": "-45,836465"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183339",
+        "longitude": "-45,835932"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,182496",
+        "longitude": "-45,836675"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,182003",
+        "longitude": "-45,835649"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,180634",
+        "longitude": "-45,836115"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,180514",
+        "longitude": "-45,835601"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,21752",
+        "longitude": "-45,909129"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216967",
+        "longitude": "-45,90989"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217017",
+        "longitude": "-45,909723"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216977",
+        "longitude": "-45,909807"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217082",
+        "longitude": "-45,909561"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,21705",
+        "longitude": "-45,909535"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217025",
+        "longitude": "-45,909469"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217215",
+        "longitude": "-45,909268"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217109",
+        "longitude": "-45,909236"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216903",
+        "longitude": "-45,908893"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217271",
+        "longitude": "-45,908366"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217199",
+        "longitude": "-45,907993"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217406",
+        "longitude": "-45,907392"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217342",
+        "longitude": "-45,907263"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217322",
+        "longitude": "-45,907244"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217389",
+        "longitude": "-45,907018"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217475",
+        "longitude": "-45,906988"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217344",
+        "longitude": "-45,906897"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,217619",
+        "longitude": "-45,907992"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,217875",
+        "longitude": "-45,908039"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,218261",
+        "longitude": "-45,908105"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,215863",
+        "longitude": "-45,904405"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,215867",
+        "longitude": "-45,90441"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216018",
+        "longitude": "-45,904048"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216188",
+        "longitude": "-45,903553"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216186",
+        "longitude": "-45,902552"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,21647",
+        "longitude": "-45,904358"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,222041",
+        "longitude": "-45,908778"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221185",
+        "longitude": "-45,90589"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221357",
+        "longitude": "-45,905176"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221591",
+        "longitude": "-45,905183"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221615",
+        "longitude": "-45,905204"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221732",
+        "longitude": "-45,905264"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,222178",
+        "longitude": "-45,9053"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,197199",
+        "longitude": "-45,89677"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,197156",
+        "longitude": "-45,896877"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,197128",
+        "longitude": "-45,896985"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,197081",
+        "longitude": "-45,897083"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,197043",
+        "longitude": "-45,897173"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196992",
+        "longitude": "-45,897339"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,19696",
+        "longitude": "-45,897392"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196935",
+        "longitude": "-45,89745"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196908",
+        "longitude": "-45,89749"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196878",
+        "longitude": "-45,897557"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196867",
+        "longitude": "-45,897603"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196845",
+        "longitude": "-45,89765"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196785",
+        "longitude": "-45,897775"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,218105",
+        "longitude": "-45,905534"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,23098",
+        "longitude": "-45,92033"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,228726",
+        "longitude": "-45,921283"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,23211",
+        "longitude": "-45,92382"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,244787",
+        "longitude": "-45,913485"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,216516",
+        "longitude": "-45,902694"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,215282",
+        "longitude": "-45,907984"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,241263",
+        "longitude": "-45,896563"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,241157",
+        "longitude": "-45,896583"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,240426",
+        "longitude": "-45,896696"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,24372",
+        "longitude": "-45,894813"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,244792",
+        "longitude": "-45,894151"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,233613",
+        "longitude": "-45,89602"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,250994",
+        "longitude": "-45,832071"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,250856",
+        "longitude": "-45,832437"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,251683",
+        "longitude": "-45,833819"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,251701",
+        "longitude": "-45,833324"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,258309",
+        "longitude": "-45,832721"
+    },
+    {
+        "name": "Pêssego-do-mato, Pessegueiro-do-rio-grande, Ivaí, Ubajaí, Ibajaí, Uvaião",
+        "latitude": "-23,256403",
+        "longitude": "-45,832223"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,256403",
+        "longitude": "-45,832223"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,255504",
+        "longitude": "-45,835491"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256702",
+        "longitude": "-45,836181"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256736",
+        "longitude": "-45,836032"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256875",
+        "longitude": "-45,836141"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256875",
+        "longitude": "-45,836141"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257025",
+        "longitude": "-45,836019"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257025",
+        "longitude": "-45,836019"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257025",
+        "longitude": "-45,836019"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257025",
+        "longitude": "-45,836019"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257025",
+        "longitude": "-45,836019"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256691",
+        "longitude": "-45,836002"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256691",
+        "longitude": "-45,836002"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256691",
+        "longitude": "-45,836002"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256906",
+        "longitude": "-45,835923"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,256906",
+        "longitude": "-45,835923"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256906",
+        "longitude": "-45,835923"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256906",
+        "longitude": "-45,835923"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256906",
+        "longitude": "-45,835923"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256829",
+        "longitude": "-45,835739"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,257123",
+        "longitude": "-45,835435"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,257123",
+        "longitude": "-45,835435"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,257444",
+        "longitude": "-45,83501"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257208",
+        "longitude": "-45,835378"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,257208",
+        "longitude": "-45,835378"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,257122",
+        "longitude": "-45,835778"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256904",
+        "longitude": "-45,835449"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,25685",
+        "longitude": "-45,835573"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,157221",
+        "longitude": "-45,88974"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,157157",
+        "longitude": "-45,889863"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,157411",
+        "longitude": "-45,889927"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,156681",
+        "longitude": "-45,890834"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,157128",
+        "longitude": "-45,888283"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,158387",
+        "longitude": "-45,891265"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,180239",
+        "longitude": "-45,833578"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182745",
+        "longitude": "-45,832622"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,244633",
+        "longitude": "-45,913477"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,199114",
+        "longitude": "-45,909787"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,183964",
+        "longitude": "-45,840087"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,183042",
+        "longitude": "-45,835778"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183042",
+        "longitude": "-45,835778"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183042",
+        "longitude": "-45,835778"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,182742",
+        "longitude": "-45,835415"
+    },
+    {
+        "name": "Pêssego-do-mato, Pessegueiro-do-rio-grande, Ivaí, Ubajaí, Ibajaí, Uvaião",
+        "latitude": "-23,182766",
+        "longitude": "-45,835355"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,184084",
+        "longitude": "-45,831286"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,183582",
+        "longitude": "-45,830272"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,183315",
+        "longitude": "-45,8284"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182238",
+        "longitude": "-45,828059"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181844",
+        "longitude": "-45,825185"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,177412",
+        "longitude": "-45,82649"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,177412",
+        "longitude": "-45,826429"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,180172",
+        "longitude": "-45,825908"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,180183",
+        "longitude": "-45,825958"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,180915",
+        "longitude": "-45,830794"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182745",
+        "longitude": "-45,827216"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,181197",
+        "longitude": "-45,830213"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181513",
+        "longitude": "-45,830071"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181613",
+        "longitude": "-45,830056"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181597",
+        "longitude": "-45,830049"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,181222",
+        "longitude": "-45,828062"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,181221",
+        "longitude": "-45,828013"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,181191",
+        "longitude": "-45,82802"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,180234",
+        "longitude": "-45,825369"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,178983",
+        "longitude": "-45,825426"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,178753",
+        "longitude": "-45,824689"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,178933",
+        "longitude": "-45,824556"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,178932",
+        "longitude": "-45,824553"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,178894",
+        "longitude": "-45,824531"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178547",
+        "longitude": "-45,824291"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178233",
+        "longitude": "-45,823688"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178267",
+        "longitude": "-45,82349"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,215644",
+        "longitude": "-45,888258"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,17661",
+        "longitude": "-45,824813"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,179123",
+        "longitude": "-45,821449"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,179091",
+        "longitude": "-45,821255"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178738",
+        "longitude": "-45,819259"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178263",
+        "longitude": "-45,819901"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,176592",
+        "longitude": "-45,826854"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,176438",
+        "longitude": "-45,827292"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,176359",
+        "longitude": "-45,827373"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,177383",
+        "longitude": "-45,816912"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,177667",
+        "longitude": "-45,82981"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,178646",
+        "longitude": "-45,827844"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,178273",
+        "longitude": "-45,827485"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,178798",
+        "longitude": "-45,827546"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,178304",
+        "longitude": "-45,827481"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,178301",
+        "longitude": "-45,827586"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,178314",
+        "longitude": "-45,827665"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,176082",
+        "longitude": "-45,82609"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,175438",
+        "longitude": "-45,823332"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,17471",
+        "longitude": "-45,820356"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,17471",
+        "longitude": "-45,820356"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,17352",
+        "longitude": "-45,8161"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,174825",
+        "longitude": "-45,820183"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,174842",
+        "longitude": "-45,820255"
+    },
+    {
+        "name": "Ameixa, Ameixeira, Abrunheiro, Abrunho",
+        "latitude": "-23,198426",
+        "longitude": "-45,902505"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,176139",
+        "longitude": "-45,819253"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,176151",
+        "longitude": "-45,819379"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,176202",
+        "longitude": "-45,819462"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-22,909323",
+        "longitude": "-45,94501"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,197024",
+        "longitude": "-45,895668"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182763",
+        "longitude": "-45,848436"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,194459",
+        "longitude": "-45,785851"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,196669",
+        "longitude": "-45,909517"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,197215",
+        "longitude": "-45,910499"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,197271",
+        "longitude": "-45,910367"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,198199",
+        "longitude": "-45,910233"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,196374",
+        "longitude": "-45,910418"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,200794",
+        "longitude": "-45,907588"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,184018",
+        "longitude": "-45,840085"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,207878",
+        "longitude": "-45,857747"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,200722",
+        "longitude": "-45,906038"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,20062",
+        "longitude": "-45,906084"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,200137",
+        "longitude": "-45,906965"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,199036",
+        "longitude": "-45,907795"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,198988",
+        "longitude": "-45,907791"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,19893",
+        "longitude": "-45,907797"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,196457",
+        "longitude": "-45,908344"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,195863",
+        "longitude": "-45,907639"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,193371",
+        "longitude": "-45,905621"
+    },
+    {
+        "name": "Guariroba, Gueiroba, Gueroba, Coqueiro-amargoso, Palmito-amargo, Pati-amargoso, Catolé",
+        "latitude": "-23,192716",
+        "longitude": "-45,904814"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,192141",
+        "longitude": "-45,903445"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,19199",
+        "longitude": "-45,903254"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,256021",
+        "longitude": "-45,885413"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,265454",
+        "longitude": "-45,892962"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,241497",
+        "longitude": "-45,93127"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,171051",
+        "longitude": "-45,793867"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,242476",
+        "longitude": "-45,934341"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,185655",
+        "longitude": "-45,860177"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,175925",
+        "longitude": "-45,816636"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,169189",
+        "longitude": "-45,801184"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,196456",
+        "longitude": "-45,781746"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,196118",
+        "longitude": "-45,907444"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,198253",
+        "longitude": "-45,906126"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,248129",
+        "longitude": "-45,912683"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,247357",
+        "longitude": "-45,912099"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,249989",
+        "longitude": "-45,908716"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,186381",
+        "longitude": "-45,874571"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,250466",
+        "longitude": "-45,899966"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,208751",
+        "longitude": "-45,888703"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,133597",
+        "longitude": "-45,769281"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,233246",
+        "longitude": "-45,89284"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,202582",
+        "longitude": "-45,892539"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,233246",
+        "longitude": "-45,89284"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,179956",
+        "longitude": "-45,887877"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,17725",
+        "longitude": "-45,883222"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,20819",
+        "longitude": "-45,894365"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,179719",
+        "longitude": "-45,885145"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,251347",
+        "longitude": "-45,886443"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,251271",
+        "longitude": "-45,886419"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,176144",
+        "longitude": "-45,885491"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,138048",
+        "longitude": "-45,776681"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,183632",
+        "longitude": "-45,88376"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,226915",
+        "longitude": "-45,872967"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,225386",
+        "longitude": "-45,874108"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,224574",
+        "longitude": "-45,874682"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,22262",
+        "longitude": "-45,877517"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,222584",
+        "longitude": "-45,877561"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221682",
+        "longitude": "-45,878306"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,221507",
+        "longitude": "-45,878546"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,22785",
+        "longitude": "-45,8742"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,182376",
+        "longitude": "-45,876692"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,205086",
+        "longitude": "-45,908922"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,183793",
+        "longitude": "-45,873196"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,184347",
+        "longitude": "-45,873435"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,184376",
+        "longitude": "-45,873441"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,18443",
+        "longitude": "-45,873451"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,184051",
+        "longitude": "-45,875089"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,179628",
+        "longitude": "-45,875988"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,179593",
+        "longitude": "-45,875989"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,255827",
+        "longitude": "-45,885407"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,22384",
+        "longitude": "-45,908206"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,18593",
+        "longitude": "-45,872664"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,18733",
+        "longitude": "-45,873583"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,186502",
+        "longitude": "-45,874004"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,184504",
+        "longitude": "-45,875039"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,188322",
+        "longitude": "-45,86541"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,231674",
+        "longitude": "-45,885849"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,18889",
+        "longitude": "-45,88078"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,188826",
+        "longitude": "-45,880716"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,188774",
+        "longitude": "-45,880692"
+    },
+    {
+        "name": "Olho-de-dragão, Longa",
+        "latitude": "-23,195346",
+        "longitude": "-45,882859"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,195031",
+        "longitude": "-45,882833"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,255671",
+        "longitude": "-45,897604"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,189956",
+        "longitude": "-45,880969"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,260316",
+        "longitude": "-45,891236"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,193463",
+        "longitude": "-45,873038"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,193429",
+        "longitude": "-45,873055"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,193376",
+        "longitude": "-45,873102"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,193322",
+        "longitude": "-45,873174"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,193096",
+        "longitude": "-45,871191"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,191422",
+        "longitude": "-45,86696"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,191359",
+        "longitude": "-45,867038"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,185289",
+        "longitude": "-45,860819"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,171908",
+        "longitude": "-45,880568"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,180127",
+        "longitude": "-45,876383"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,265952",
+        "longitude": "-45,905133"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,200665",
+        "longitude": "-45,861173"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,181803",
+        "longitude": "-45,839221"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,181905",
+        "longitude": "-45,839221"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,181835",
+        "longitude": "-45,839267"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,181803",
+        "longitude": "-45,839223"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,181877",
+        "longitude": "-45,839171"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181885",
+        "longitude": "-45,839071"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181885",
+        "longitude": "-45,839071"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181801",
+        "longitude": "-45,838991"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181883",
+        "longitude": "-45,838889"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,163919",
+        "longitude": "-45,804945"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,227689",
+        "longitude": "-45,926721"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,225937",
+        "longitude": "-45,9236"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,226793",
+        "longitude": "-45,926209"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,186807",
+        "longitude": "-45,858679"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,186397",
+        "longitude": "-45,857126"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,233902",
+        "longitude": "-45,877966"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,221196",
+        "longitude": "-45,919458"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,181135",
+        "longitude": "-45,847512"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,182102",
+        "longitude": "-45,839074"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,272003",
+        "longitude": "-45,902677"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,179804",
+        "longitude": "-45,885138"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,212801",
+        "longitude": "-45,909983"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,176949",
+        "longitude": "-45,889636"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178536",
+        "longitude": "-45,885855"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,176737",
+        "longitude": "-45,886359"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,176121",
+        "longitude": "-45,878593"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,178665",
+        "longitude": "-45,876647"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,244825",
+        "longitude": "-45,900472"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,249358",
+        "longitude": "-45,901525"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,231108",
+        "longitude": "-45,879269"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,230899",
+        "longitude": "-45,879234"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,182432",
+        "longitude": "-45,84745"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,182315",
+        "longitude": "-45,852772"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182644",
+        "longitude": "-45,848826"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,182682",
+        "longitude": "-45,848903"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,229808",
+        "longitude": "-45,891326"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,229779",
+        "longitude": "-45,891327"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,229865",
+        "longitude": "-45,891321"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,185723",
+        "longitude": "-45,861639"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,231358",
+        "longitude": "-45,878481"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,216803",
+        "longitude": "-45,842804"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,233978",
+        "longitude": "-45,879002"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,232953",
+        "longitude": "-45,87869"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,232544",
+        "longitude": "-45,878852"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,231837",
+        "longitude": "-45,878943"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,231493",
+        "longitude": "-45,879299"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,18326",
+        "longitude": "-45,852091"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,22481",
+        "longitude": "-45,879218"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,238621",
+        "longitude": "-45,913172"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,178594",
+        "longitude": "-45,862799"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,178501",
+        "longitude": "-45,862841"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,178643",
+        "longitude": "-45,86273"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,226041",
+        "longitude": "-45,880626"
+    },
+    {
+        "name": "Pessegueiro, Pêssego",
+        "latitude": "-23,201348",
+        "longitude": "-45,95242"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,236892",
+        "longitude": "-45,916022"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,201605",
+        "longitude": "-45,961433"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,201365",
+        "longitude": "-45,951593"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,202439",
+        "longitude": "-45,945034"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,201068",
+        "longitude": "-45,937685"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,222332",
+        "longitude": "-45,882993"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,24542",
+        "longitude": "-45,88651"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,174762",
+        "longitude": "-45,811793"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,255825",
+        "longitude": "-45,829449"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,233321",
+        "longitude": "-45,882453"
+    },
+    {
+        "name": "Caju, Cajueiro",
+        "latitude": "-23,232599",
+        "longitude": "-45,88086"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,163419",
+        "longitude": "-45,909566"
+    },
+    {
+        "name": "Romã",
+        "latitude": "-23,226778",
+        "longitude": "-45,891482"
+    },
+    {
+        "name": "Graviola",
+        "latitude": "-23,23266",
+        "longitude": "-45,882359"
+    },
+    {
+        "name": "Coqueiro-da-bahia",
+        "latitude": "-23,23221",
+        "longitude": "-45,881158"
+    },
+    {
+        "name": "Falso-pau-brasil, Olho-de-dragão, Carolina, Tento-carolina",
+        "latitude": "-23,233554",
+        "longitude": "-45,881331"
     }
 ]
