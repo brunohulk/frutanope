@@ -491,8 +491,14 @@
         }
 
         if (!skip) {
-            const marker = L.marker([tree.latitude.replace(",", "."), tree.longitude.replace(",", ".")], {icon: fruitIcon})
-                .bindPopup("<b>" +  tree.name + "</b>: " + additionalDesc)
+            const latitude = tree.latitude.replace(",", ".");
+            const longitude = tree.longitude.replace(",", ".");
+
+            const marker = L.marker([latitude, longitude], {icon: fruitIcon})
+                .bindPopup(
+                    "<b>" +  tree.name + "</b>: " + additionalDesc + '<br>'
+                    + '<a target="_blank" href="https://maps.google.com/?q='+ latitude + ','+ longitude + '">Abrir Google Maps</a>'
+                )
 
             if (fruitGroups[fruitName] === undefined) {
                 fruitGroups[fruitName] = [marker]
